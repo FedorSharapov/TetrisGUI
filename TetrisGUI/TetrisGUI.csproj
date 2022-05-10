@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\Figures.cs" />
     <Compile Include="Figure\FigureS.cs" />
     <Compile Include="Providers\ConsoleDrawer.cs" />
     <Compile Include="Providers\SmallBasicDrawer.cs" />

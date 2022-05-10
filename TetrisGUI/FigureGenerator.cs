@@ -4,12 +4,6 @@ using System.Text;
 
 namespace TetrisGUI
 {
-    enum Figures
-    {
-        Square,
-        Stick,
-        FigureS
-    }
     class FigureGenerator
     {
         private int _x;
