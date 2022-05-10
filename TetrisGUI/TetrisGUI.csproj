@@ -46,20 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SmallBasicDrawer.cs" />
-    <Compile Include="Direction.cs" />
-    <Compile Include="DrawerProvider.cs" />
+    <Compile Include="Figure\FigureS.cs" />
+    <Compile Include="Providers\ConsoleDrawer.cs" />
+    <Compile Include="Providers\SmallBasicDrawer.cs" />
+    <Compile Include="Enums\Direction.cs" />
+    <Compile Include="Providers\DrawerProvider.cs" />
     <Compile Include="Field.cs" />
-    <Compile Include="Figure.cs" />
+    <Compile Include="Figure\Figure.cs" />
     <Compile Include="FigureGenerator.cs" />
     <Compile Include="IDrawer.cs" />
-    <Compile Include="Keys.cs" />
+    <Compile Include="Enums\Keys.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Result.cs" />
-    <Compile Include="Square.cs" />
-    <Compile Include="Stick.cs" />
+    <Compile Include="Enums\Result.cs" />
+    <Compile Include="Figure\Square.cs" />
+    <Compile Include="Figure\Stick.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

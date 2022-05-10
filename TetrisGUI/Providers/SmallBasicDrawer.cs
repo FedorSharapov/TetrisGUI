@@ -13,6 +13,7 @@ namespace TetrisGUI
         public SmallBasicDrawer()
         {
             GraphicsWindow.KeyDown += GraphicsWindow_KeyDown;
+
         }
         private static void GraphicsWindow_KeyDown()
         {
